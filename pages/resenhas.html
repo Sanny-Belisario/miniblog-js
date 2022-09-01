@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Blog</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://kit.fontawesome.com/ca3e6020c3.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-blue" id="nav">
+        <img src="../img/logo-removebg-preview.png" alt="" width="250">
+        <div class="container" id="nav-text">
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./resenhas.html">Resenhas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled">Noticias</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled">TBR</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled">Sobre</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="card bg-dark text-white">
+        <img src="../img/header.png" class="card-img" alt="...">
+        <div class="card-img-overlay" id="cimgoverlay">
+            <h1 class="card-title" id="ctitle">Sunshine Books</h1>
+        </div>
+    </div>
+    <div id="home">
+        <div class="container">
+            <div class="row">
+                <div id="resenhas-home">
+                    <h1>Resenhas</h1>
+                    <div class="row">
+                        <div class="col-3" id="resenha-img">
+                            <img src="../img/Os sete maridos de Evelyn Hugo, de Taylor Jenkins Reid.jfif" alt=""
+                                width="250">
+                        </div>
+                        <div class="col-8" id="resenha-div">
+                            <h4 id="book-title">Os Sete Maridos de Evelyn Hugo</h4>
+                            <div id="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <p id="resenha-text">Sinceramente, quando comecei a ler achei que a história não ia me
+                                prender. Quão
+                                enganada eu estava. <br> Esse livro foi uma nova realidade para mim e sinto que foi uma
+                                das histórias
+                                que mais refleti. <br> Chorei litros e litros, preciso de uma reposição de água no meu
+                                corpo. <br> Amei
+                                esse livro e sinto que se tornou um dos melhores que já li.</p>
+                            <div id="autor">
+                                <h4>Autor(a):</h4>
+                                <p id="p-pageresenha">Taylor Jenkins Reid</p>
+                            </div>
+                            <div id="editora">
+                                <h4>Editora:</h4>
+                                <p id="p-pageresenha">Paralela</p>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col-3" id="resenha-img">
+                            <img src="../img/Trono destruído.jfif" alt="" width="250">
+                        </div>
+                        <div class="col-8">
+                            <h4 id="book-title">Trono Destruído</h4>
+                            <div id="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-heart" id="favoritos"></i>
+                                <span class="badge rounded-pill bg-purple">Spoiler</span>
+                            </div>
+                            <p id="resenha-text">Eu nem sei o que sentir. Cada página, cada capítulo, cada conto me
+                                trazia uma
+                                sensação diferente. Esse sendo o último livro da saga me trazia uma emoção diferente,
+                                como se estivesse
+                                me despedindo deles. <br> Bom, vou falar minha opinião sobre cada conto. <br> Começamos
+                                com Canção da
+                                Rainha, o conto de Coriane Jacos. Ver como era o relacionamento dos pais de Cal foi tão
+                                significativo,
+                                mas ver a forma como Elara a destruiu, a matando de dentro pra fora, fez meu coração se
+                                partir. Pensar
+                                que Cal era só um bebê quando sua mãe tirou a própria vida me faz chorar feito uma
+                                condenada. <br> Daí
+                                temos Cicatrizes de Aço, o conto de Diana Farley. Ver o início de tudo por outros olhos
+                                é significativo,
+                                mas ver a conexão dela com Shade, como se conheceram e como ela começou a se importar
+                                por ele sem
+                                perceber, me fez amar mais ainda esse casal. Ela via como ele realmente se sentia, via
+                                por trás do
+                                sorriso e do lado brincalhão. Um garoto machucado pela guerra. Saber que o fim chegou
+                                cedo demais pra
+                                eles me destrói. <br> O mundo que ficou pra trás nos mostra os acontecimentos de Prisão
+                                do Rei por
+                                outros olhos, pela visão de pessoas fora da rodinha, que não conhecem os principais e
+                                não estão
+                                envolvidos diretamente com a guerra. Sinceramente, não sei porque as pessoas reclamam
+                                desse conto, o
+                                achei extremamente necessário, pois mostra um outro lado da guerra. Eu leria
+                                tranquilamente um livro do
+                                Ashe e da Lyrisa, pois amei a dinâmica deles e os próprios personagens. <br> Em seguida
+                                temos Coração de
+                                Ferro, narrando a adaptação de Evangeline e Elane em Montfort, além da abdicação dos
+                                irmãos Samos. Ver
+                                Evangeline enfrentando os próprios medos pelo amor que sente pela Elane, mostra o quanto
+                                ela é diferente
+                                do primeiro livro, o quanto evoluiu. Ler pela perspectiva de Elane foi algo diferente,
+                                já que vimos a
+                                forma que só ela enxerga a Eve, como ela consegue ver pelas barreiras que ela monta.
+                                Continuo odiando
+                                Ptolemus, mas gosto que ele apoia a irmã. <br> Luz do fogo foi o conto que mais
+                                aguardei. Mare e Cal são
+                                meu casal favorito, meus protegidos, e ai de quem falar mal deles. Gostei de ver eles se
+                                acertando,
+                                provando que conseguem superar suas próprias dores internas para ficarem juntos, que são
+                                o apoio um do
+                                outro. Ver mais da família Barrow me aqueceu o coração, pois amo a dinâmica deles, sendo
+                                uma família
+                                unida e passando por todas as dificuldades juntos. O paralelo entre Mare e Cal me deixou
+                                feliz, pois
+                                mostrou que não é o final, e sim um recomeço. <br> Adeus é onde Victoria decidiu
+                                destroçar nosso
+                                coração. Chorei, chorei muito, mas sei que em nenhum momento foi por Maven. Foi por Cal.
+                                Não sinto pena
+                                de Maven, gostei de pelo menos uma última vez, ele provar que tem alguma parte dele
+                                dentro de si, e ele
+                                ter protegido Cal da verdade, de que ele estava matando o irmão caçula junto com o
+                                monstro criado por
+                                Elara, provou que ainda o amava. Cal queria até no último momento achar algo a que se
+                                agarrar, a mínima
+                                esperança de que o irmão ainda existia, de que tinha pelo que lutar. Ver a narração dele
+                                nesse conto me
+                                quebrou, porque ele amava o irmão e não estava pronto para dizer adeus. <br> As
+                                anotações de Julian
+                                foram o ponto alto dessa história. Aumentando meu conhecimento sobre tudo. Amei a árvore
+                                genealógica dos
+                                Calore, além dos mapas. <br> Por fim, como não falar das últimas páginas, contando o
+                                futuro deles? Ver
+                                que Cal e Mare tiveram dois filhos e deram os nomes de Shade e Coriane a eles me fez
+                                chorar que nem um
+                                bebê. Kilorn se tornou primeiro-ministro, como as coisas mudam. Clara Farley-Shade, meio
+                                sanguenova,
+                                meio vermelha. A mistura perfeita dos pais. Ver a evolução do país é incrível, e ver que
+                                tudo pelo que
+                                Mare passou valeu a pena enche meu coração de alegria. <br> Não estou pronta pra dizer
+                                adeus, mas sei
+                                que esses personagens nunca me abandonarão realmente, e sei que sempre poderei achar meu
+                                lugar entre A
+                                Guarda Escarlate. <br> "Vamos nos levantar. Vermelhos como a aurora. "</p>
+                            <a href="#" id="resenha-link">Ler mais</a>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col-3" id="resenha-img">
+                            <img src="../img/Tempestade de Guerra.png" alt="" width="250">
+                        </div>
+                        <div class="col-8">
+                            <h4 id="book-title">Tempestade de Guerra</h4>
+                            <div id="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-heart" id="favoritos"></i>
+                                <span class="badge rounded-pill bg-purple">Spoiler</span>
+                            </div>
+                            <p id="resenha-text">Ainda estou tentando processar todas as emoções causadas por esse
+                                livro. <br> Vou por
+                                partes. <br> Vou começar falando sobre como odeie ler os capítulos narrados pela Íris.
+                                Simplesmente era
+                                uma leitura muito massante, pois não suportava ela. <br> Fiquei muito animada com as
+                                narrações dos
+                                irmãos Calore. Ver tudo pelo ponto de vista deles foi diferente, ver os diferentes modos
+                                como pensam,
+                                como amam Mare. <br> Cal queria Mare ao seu lado, mas também queria a coroa de seu pai.
+                                Ele sabia que
+                                não podia ter os dois. <br> Maven preferia que Mare tivesse medo dele do que não
+                                sentisse nada por ele.
+                                Ver como a mãe dele ainda o afetava, mesmo depois de morta, mostra o quão traumatizado
+                                ele é com ela.
+                                Não sinto pena dele. Sinceramente, Maven não tinha mais alma, isso foi tirado por sua
+                                mãe, assim como
+                                tudo mais. <br> Torcer por Evangeline não era uma coisa que eu esperava. Acompanhar a
+                                evolução dela,
+                                principalmente com suas narrações, a fizeram se tornar minha personagem favorita. Torci
+                                até o final pela
+                                felicidade dela e ver ela finalmente se ver livre de seus pais e podendo ir atrás de seu
+                                verdadeiro amor
+                                me fez ficar com o coração quentinho. <br> Mare Barrow. O que falar dessa personagem
+                                incrível que me fez
+                                acreditar que não somos definidos pela sociedade diz, ou no caso deles, dos sanguenovos,
+                                pela cor do
+                                sangue? Ela definitivamente entrou para a lista de personagens que amo. Sua força, a
+                                forma que enfrentou
+                                o mundo pelo que acredita, para proteger sua família, só me fez a amar mais. <br> Esse
+                                livro me ensinou
+                                muito. Vou guardar esse livro para sempre comigo, e todos os personagens ganharam um
+                                lugarzinho especial
+                                no meu coração. <br> "Vamos levantar, vermelhos como a aurora. "</p>
+                            <a href="#" id="resenha-link">Ler mais</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid bg-blue" id="footer">
+        <div class="row">
+            <div class="col" id="footer-proj">
+                <p id="footer-site">Trabalho Mini Blog</p>
+                <hr class="col-9">
+            </div>
+            <div class="col" id="footer-logo">
+                <img src="../img/logo-removebg-preview.png" alt="">
+            </div>
+            <div class="col" id="footer-grupo">
+                <p id="footer-since">Sanny Belisário</p>
+                <hr class="col-8">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

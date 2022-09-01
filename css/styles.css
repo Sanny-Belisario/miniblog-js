@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap&family=Benne&display=swap');
+* {
+    font-family: 'Benne', serif;
+}
+#nav img {
+    margin-left: 3vw;
+}
+#nav-text {
+    text-align: right;
+    margin-right: 8vw !important;
+    width: auto !important;
+    font-size: 20px;
+    margin-top: 5px;
+}
+.bg-blue {
+    background-color: #C8B6E2;
+    height: 5vw;
+}
+.nav-item {
+    margin-left: 3vw;
+}
+.nav-link {
+    color: #000000c6 !important;
+}
+.nav-link:hover {
+    color: #495C83 !important;
+}
+#ctitle {
+    text-align: center;
+    color: #000;
+    font-size: 5vw;
+}
+#cimgoverlay {
+    background-color: #A8A4CEb3;
+    margin: 9vw 25vw;
+    border-radius: 15px;
+}
+.container {
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+}
+#home {
+    background-color: #c8b6e2ba;
+}
+#resenha-img {
+    margin-right: 2vw;
+}
+#resenha-text {
+    margin-top: 10px;
+    font-size: 19px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 9; 
+    -webkit-box-orient: vertical; 
+    margin-bottom: 0;
+}
+#noticias-text {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+#noticias-link, #resenha-link {
+    margin-top: 4px;
+    text-decoration: none;
+    color: #4C3575;
+    font-size: 18px;
+}
+#noticias-link:hover, #resenha-link:hover {
+    color: #1C0C5B;
+}
+#favoritos {
+    margin-left: 10px;
+}
+.bg-purple {
+    background-color: #916BBF;
+    margin-left: 1vw;
+    padding: 6px 10px !important;
+}
+#rlgeral {
+    text-align: center;
+    padding-top: 2vw;
+}
+#resenha-link-geral {
+    text-decoration: none;
+    color: #4C3575;
+    font-size: 30px;
+}
+#noticias-text-ag {
+    margin-top: 0px;
+    margin-bottom: -2px;
+}
+#noticias-link-geral {
+    text-decoration: none;
+    color: #4C3575;
+    font-size: 25px;
+}
+#nlgeral {
+    text-align: center;
+    padding-top: 1vw;
+}
+#tbr-text {
+    font-size: 14px;
+}
+#tbrlgeral {
+    text-align: center;
+    padding-top: 1vw;
+}
+#footer-site {
+    margin-left: 3vw;
+    margin-bottom: 2px;
+    padding-top: 5vw;
+}
+#footer {
+    font-size: 22px;
+    height: 12vw;
+}
+#footer-proj hr {
+    margin-top: 0;
+    margin-left: -41px;
+}
+#footer-logo {
+    padding-top: 2vw;
+    text-align: center;
+    width: 150px;
+}
+#footer-since {
+    text-align: end;
+    margin-bottom: 2px;
+    padding-top: 5vw;
+}
+#footer-grupo hr {
+    margin-left: 152px;
+    margin-top: 0;
+}
+#autor {
+    margin-top: 10px;
+}
+#autor h4, #editora h4 {
+    margin-bottom: 0;
+}
+#p-pageresenha {
+    margin-top: 0px;
+    font-size: 16px;
+}
+/* api */
+#home hr {
+    color: #000;
+}
