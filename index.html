@@ -194,7 +194,7 @@
           <br>
           <div class="row">
             <div class="col-4">
-              <img src="./img/Noticias - Amor & Gelato.jfif" alt="" width="100">
+              <img src="./img/Noticias - Amor _ Gelato.jfif" alt="" width="100">
             </div>
             <div class="col-8">
               <h4 id="noticias-text-ag">Adaptação de Amor & Gelato é massacrada pelos fãs do livro</h4>
@@ -255,19 +255,48 @@
     <hr class="col-12">
     <div class="container">
       <h1>API com Angular JS</h1>
-     <div class="row" ng-controller="Rest">
+      <!-- <div class="row" ng-controller="Rest">
         <div class="col-md-4" ng-repeat="publicacao in publicacoes">
           <div class="card mb-4 shadow-sm">
-            <img ng-src="https://api-fake-blog.herokuapp.com{{ publicacao.thumbImage }}" >
+            <img ng-src="https://api-fake-blog.herokuapp.com{{ publicacao.thumbImage }}">
             <div class="card-body">
               <p class="card-text">{{ publicacao.title }}</p>
               <div class="d-flex justify-content-between align-items-center">
                 <small class="text-muted">{{ publicacao.description }}</small>
               </div>
             </div>
+            <button id="btn-saibamais" type="button" class="btn btn-primary">Saiba Mais</button>
           </div>
         </div>
+      </div> -->
+      <div class="row" ng-controller="Rest">
+        <div class="col-md-4" ng-repeat="(key, publicacao) in publicacoes">
+          <!-- <form novalidate class="simple-form" action="./pages/resenhas.html"> -->
+            <div class="card mb-4 shadow-sm">
+              <img id="img-publi" ng-src="https://api-fake-blog.herokuapp.com{{ publicacao.thumbImage }}">
+              <div class="card-body">
+                <p class="card-text" id="title">{{ publicacao.title }}</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <small class="text-muted" id="descricao">{{ publicacao.description }}</small>
+                </div>
+              </div>
+              <a href="./pages/resenhas.html#{{ key }}"><input type="button" class="btn btn-primary" onclick="publicacao()">Saiba Mais</a>
+            </div>
+          <!-- </form> -->
+        </div>
       </div>
+      <!-- <div class="row" ng-controller="MyController">
+        <div class="col-md-4" ng-repeat="publi in publicacao">
+          <div class="card mb-4 shadow-sm">
+            <div class="card-body">
+              <p class="card-text">{{ publi.title }}</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <small class="text-muted">{{ publi.description }}</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> -->
     </div>
   </div>
   <div class="container-fluid bg-blue" id="footer">
